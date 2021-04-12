@@ -1,38 +1,47 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.nav-icon{
+  color: green;
+  margin-right: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main{
+  color: white;
+  height: 60vh;
+  background-color: rgb(226,135,67);
+  background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+font-size: 10ch;
+}
+
+.sub{
+  color: white;
+  padding: 2rem 2rem;
+  height: 30vh;
+  background-color: black;
+
+}
+
+.footer{
+  color: white;
+  padding: 2rem 2rem;
+  background-color: black;
+
+}
+
+.right-footer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
