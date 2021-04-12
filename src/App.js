@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import { Nav, Navbar, NavDropdown, Form, FormControl, Button, Image } from 'react-bootstrap';
+import { Nav, Navbar, Button, Image } from 'react-bootstrap';
 import './App.css';
 
 // 1. Define new component
 
 function NavigationBar() {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <img
         src="https://image.flaticon.com/icons/png/512/49/49646.png"
         width="30"
@@ -18,10 +17,10 @@ function NavigationBar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#home">Premium</Nav.Link>
-          <Nav.Link href="#link">Help</Nav.Link>
-          <Nav.Link href="#link">Download</Nav.Link>
-          <Nav.Link href="#link">Sign up</Nav.Link>
-          <Nav.Link href="#link">Log in</Nav.Link>
+          <Nav.Link href="#">Help</Nav.Link>
+          <Nav.Link href="#">Download</Nav.Link>
+          <Nav.Link href="#">Sign up</Nav.Link>
+          <Nav.Link href="#">Log in</Nav.Link>
         </Nav>
 
       </Navbar.Collapse>
@@ -46,8 +45,8 @@ function SubContent() {
     <div class="sub">
       <div class="row">
         <div class="col-3">
-          <i class="fab fa-spotify"></i>
-          <h5>Spotify</h5>
+          <Image src="https://i.pinimg.com/originals/f0/5c/bc/f05cbc8c0f8b075d2b4f1f68fee49649.jpg" style={{ height: 100 }} rounded />
+          <h2>Spotify</h2>
         </div>
         <div class="col-2">
           <h5>Company</h5>
