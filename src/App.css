@@ -2,7 +2,7 @@
 .main{
   color: white;
   height: 60vh;
-  background-color: rgb(226,135,67);
+  background-color:rgba(243,111,126,255);
   background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
   background-size: cover;
   background-position: center;
@@ -41,3 +41,14 @@ font-size: 10ch;
   justify-content: center;
 }
 
+.main>button{
+  color: white;
+  border: 0px;
+  padding: 0.8rem 3rem;
+  border-radius: 2rem;
+  background-color: rgba(29,185,84,255);
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;

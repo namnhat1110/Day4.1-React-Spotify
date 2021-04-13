@@ -32,7 +32,7 @@ function NavigationBar() {
 
 function MainContent() {
   return (
-    <div class="main">
+    <div className="main">
       <h1>Music for everyone</h1>
       <p>Millions of songs. No Credit Card Needed</p>
       <Button>Get Spotify Free</Button>
